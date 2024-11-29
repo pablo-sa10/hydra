@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             header("Location: sistema.php");
             exit();
         } else {
-            $erro = "Usuário ou senha inválidos!";
+            $erro = "senha incorreta!";
         }
     } else {
         $erro = "Usuário não encontrado!";

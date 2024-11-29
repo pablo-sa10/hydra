@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $erro = "Usuário ou senha inválidos!";
                 }
             } else {
-                $erro = "Usuário não encontrado!";
+                $erro = "Usuário ou senha inválidos!";
             }
         }
     }
