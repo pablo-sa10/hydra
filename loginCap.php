@@ -127,7 +127,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="g-recaptcha" data-sitekey="6LdProwqAAAAAGbnmbRXkTYiI0c_HRcs8aJamgS6"></div>
             <button type="submit">Entrar</button>
         </form>
-        <?php if (isset($erro)) echo "<p>$erro</p>"; ?>
+        <?php if (isset($erro)) echo "<p style='margin-top: 10px;'>$erro</p>"; ?>
     </div>
 </body>
 </html>

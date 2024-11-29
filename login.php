@@ -107,7 +107,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input type="password" name="password" placeholder="Senha" required>
             <button type="submit">Entrar</button>
         </form>
-        <?php if (isset($erro)) echo "<p>$erro</p>"; ?>
+        <?php if (isset($erro)) echo "<p style='margin-top: 10px;'>$erro</p>"; ?>
     </div>
 </body>
 </html>
